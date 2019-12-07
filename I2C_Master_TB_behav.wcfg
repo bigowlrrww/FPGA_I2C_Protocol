@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="I2C_Master_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="I2C_Master_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="17415000000fs"></ZoomStartTime>
+      <ZoomEndTime time="102015000001fs"></ZoomEndTime>
+      <Cursor1Time time="34815000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="127"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="29" />
+   <wvobject fp_name="/I2C_Master_TB/i2c0/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/addr" type="array">
+      <obj_property name="ElementShortName">addr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/rw" type="logic">
+      <obj_property name="ElementShortName">rw</obj_property>
+      <obj_property name="ObjectShortName">rw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/data_wr" type="array">
+      <obj_property name="ElementShortName">data_wr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_wr[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/data_rd" type="array">
+      <obj_property name="ElementShortName">data_rd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/ack_error" type="logic">
+      <obj_property name="ElementShortName">ack_error</obj_property>
+      <obj_property name="ObjectShortName">ack_error</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider490">
+      <obj_property name="label">New Divider 2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#00FFFF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/sda" type="logic">
+      <obj_property name="ElementShortName">sda</obj_property>
+      <obj_property name="ObjectShortName">sda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/scl" type="logic">
+      <obj_property name="ElementShortName">scl</obj_property>
+      <obj_property name="ObjectShortName">scl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider489">
+      <obj_property name="label">New Divider 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#00FFFF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/data_clk" type="logic">
+      <obj_property name="ElementShortName">data_clk</obj_property>
+      <obj_property name="ObjectShortName">data_clk</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/data_clk_prev" type="logic">
+      <obj_property name="ElementShortName">data_clk_prev</obj_property>
+      <obj_property name="ObjectShortName">data_clk_prev</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/scl_clk" type="logic">
+      <obj_property name="ElementShortName">scl_clk</obj_property>
+      <obj_property name="ObjectShortName">scl_clk</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/scl_ena" type="logic">
+      <obj_property name="ElementShortName">scl_ena</obj_property>
+      <obj_property name="ObjectShortName">scl_ena</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/sda_int" type="logic">
+      <obj_property name="ElementShortName">sda_int</obj_property>
+      <obj_property name="ObjectShortName">sda_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/sda_ena_n" type="logic">
+      <obj_property name="ElementShortName">sda_ena_n</obj_property>
+      <obj_property name="ObjectShortName">sda_ena_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/stretch" type="logic">
+      <obj_property name="ElementShortName">stretch</obj_property>
+      <obj_property name="ObjectShortName">stretch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/addr_rw" type="array">
+      <obj_property name="ElementShortName">addr_rw[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_rw[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/data_tx" type="array">
+      <obj_property name="ElementShortName">data_tx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_tx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/data_rx" type="array">
+      <obj_property name="ElementShortName">data_rx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/count" type="array">
+      <obj_property name="ElementShortName">count[252:0]</obj_property>
+      <obj_property name="ObjectShortName">count[252:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/bit_cnt" type="array">
+      <obj_property name="ElementShortName">bit_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/input_clk" type="array">
+      <obj_property name="ElementShortName">input_clk[31:0]</obj_property>
+      <obj_property name="ObjectShortName">input_clk[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/bus_clk" type="array">
+      <obj_property name="ElementShortName">bus_clk[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bus_clk[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_Master_TB/i2c0/divider" type="array">
+      <obj_property name="ElementShortName">divider[31:0]</obj_property>
+      <obj_property name="ObjectShortName">divider[31:0]</obj_property>
+   </wvobject>
+</wave_config>
